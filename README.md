@@ -8,7 +8,10 @@ brew install --cask navasvarela/tap/dbrover
 SQLite, SQL Server, DuckDB and ClickHouse.
 
 The app isn't notarized by Apple yet, so the first launch needs **Open Anyway** in **System
-Settings › Privacy & Security**; `brew info dbrover` shows how. DbRover then updates itself.
+Settings › Privacy & Security**; the install prints how. DbRover then updates itself.
+
+Installing by the full name above also tells Homebrew to trust this cask. For other commands
+on it, such as `brew info`, run `brew trust --cask navasvarela/tap/dbrover` once.
 
 The cask is bumped after each release by
 [DbRover's Packages workflow](https://github.com/navasvarela/dbrover/blob/main/.github/workflows/packages.yml).
