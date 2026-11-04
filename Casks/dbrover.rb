@@ -1,6 +1,6 @@
 cask "dbrover" do
-  version "0.25.0"
-  sha256 "7f75188e0371f7ca871a39b59ef65f6fbedbccd557a62455fd469d19a54be7f7"
+  version "0.26.0"
+  sha256 "b92505790fef433d92af408d211546458b0fd5e90dba64ff8e26ee714242d014"
 
   url "https://github.com/navasvarela/dbrover/releases/download/v#{version}/dbrover-#{version}-macos-universal.dmg"
   name "DbRover"
